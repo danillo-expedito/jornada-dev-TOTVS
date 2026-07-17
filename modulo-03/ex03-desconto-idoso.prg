@@ -20,7 +20,7 @@ FUNCTION Main()
 
     nIdade := Int((Date() - dNasc) / 365)
 
-    IF nIdade > 60
+    IF nIdade >= 60
         nDesconto := nPreco * 0.125
     ENDIF
 
